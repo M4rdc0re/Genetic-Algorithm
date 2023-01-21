@@ -1,0 +1,289 @@
+{
+    "map": {
+        "cities": [
+            {
+                "id": 0,
+                "name": "Vitoria-Gasteiz",
+                "lat": 42.84641,
+                "lon": -2.667893
+            },
+            {
+                "id": 1,
+                "name": "Pamplona/Iruña",
+                "lat": 42.81721,
+                "lon": -1.646767
+            },
+            {
+                "id": 2,
+                "name": "Ourense",
+                "lat": 42.34001,
+                "lon": -7.864641
+            },
+            {
+                "id": 3,
+                "name": "Alcalá de Henares",
+                "lat": 40.48166,
+                "lon": -3.364136
+            },
+            {
+                "id": 4,
+                "name": "Huelva",
+                "lat": 37.2571,
+                "lon": -6.949555
+            },
+            {
+                "id": 5,
+                "name": "Barakaldo",
+                "lat": 43.29683,
+                "lon": -2.985259
+            },
+            {
+                "id": 6,
+                "name": "Águilas",
+                "lat": 37.4038,
+                "lon": -1.581161
+            },
+            {
+                "id": 7,
+                "name": "Talavera de la Reina",
+                "lat": 39.9598,
+                "lon": -4.834432
+            },
+            {
+                "id": 8,
+                "name": "Alhaurín de la Torre",
+                "lat": 36.66836,
+                "lon": -4.552967
+            },
+            {
+                "id": 9,
+                "name": "Salamanca",
+                "lat": 40.96497,
+                "lon": -5.663047
+            },
+            {
+                "id": 10,
+                "name": "Valladolid",
+                "lat": 41.65295,
+                "lon": -4.728388
+            },
+            {
+                "id": 11,
+                "name": "Almendralejo",
+                "lat": 38.68982,
+                "lon": -6.405679
+            }
+        ],
+        "roads": [
+            {
+                "origin": 0,
+                "destination": 1,
+                "distance": 96.9
+            },
+            {
+                "origin": 0,
+                "destination": 5,
+                "distance": 72.1
+            },
+            {
+                "origin": 1,
+                "destination": 0,
+                "distance": 96.9
+            },
+            {
+                "origin": 1,
+                "destination": 5,
+                "distance": 163.0
+            },
+            {
+                "origin": 2,
+                "destination": 9,
+                "distance": 327.0
+            },
+            {
+                "origin": 3,
+                "destination": 7,
+                "distance": 160.0
+            },
+            {
+                "origin": 3,
+                "destination": 9,
+                "distance": 251.0
+            },
+            {
+                "origin": 3,
+                "destination": 10,
+                "distance": 227.0
+            },
+            {
+                "origin": 4,
+                "destination": 7,
+                "distance": 492.0
+            },
+            {
+                "origin": 4,
+                "destination": 8,
+                "distance": 313.0
+            },
+            {
+                "origin": 4,
+                "destination": 11,
+                "distance": 247.0
+            },
+            {
+                "origin": 5,
+                "destination": 0,
+                "distance": 72.1
+            },
+            {
+                "origin": 5,
+                "destination": 1,
+                "distance": 163.0
+            },
+            {
+                "origin": 5,
+                "destination": 10,
+                "distance": 287.0
+            },
+            {
+                "origin": 6,
+                "destination": 8,
+                "distance": 349.0
+            },
+            {
+                "origin": 7,
+                "destination": 3,
+                "distance": 160.0
+            },
+            {
+                "origin": 7,
+                "destination": 4,
+                "distance": 492.0
+            },
+            {
+                "origin": 7,
+                "destination": 9,
+                "distance": 257.0
+            },
+            {
+                "origin": 7,
+                "destination": 10,
+                "distance": 298.0
+            },
+            {
+                "origin": 7,
+                "destination": 11,
+                "distance": 251.0
+            },
+            {
+                "origin": 8,
+                "destination": 4,
+                "distance": 313.0
+            },
+            {
+                "origin": 8,
+                "destination": 6,
+                "distance": 349.0
+            },
+            {
+                "origin": 8,
+                "destination": 11,
+                "distance": 383.0
+            },
+            {
+                "origin": 9,
+                "destination": 2,
+                "distance": 327.0
+            },
+            {
+                "origin": 9,
+                "destination": 3,
+                "distance": 251.0
+            },
+            {
+                "origin": 9,
+                "destination": 7,
+                "distance": 257.0
+            },
+            {
+                "origin": 9,
+                "destination": 10,
+                "distance": 122.0
+            },
+            {
+                "origin": 10,
+                "destination": 3,
+                "distance": 227.0
+            },
+            {
+                "origin": 10,
+                "destination": 5,
+                "distance": 287.0
+            },
+            {
+                "origin": 10,
+                "destination": 7,
+                "distance": 298.0
+            },
+            {
+                "origin": 10,
+                "destination": 9,
+                "distance": 122.0
+            },
+            {
+                "origin": 11,
+                "destination": 4,
+                "distance": 247.0
+            },
+            {
+                "origin": 11,
+                "destination": 7,
+                "distance": 251.0
+            },
+            {
+                "origin": 11,
+                "destination": 8,
+                "distance": 383.0
+            }
+        ]
+    },
+    "warehouse": 11,
+    "vehicles": [
+        {
+            "id": 0,
+            "capacity": 20
+        }
+    ],
+    "parcels": [
+    	{
+            "id": 0,
+            "city": 9,
+            "weight": 5
+        },
+        {
+            "id": 1,
+            "city": 5,
+            "weight": 7
+        },
+        {
+            "id": 2,
+            "city": 7,
+            "weight": 11
+        },
+        {
+            "id": 3,
+            "city": 3,
+            "weight": 6
+        },
+        {
+            "id": 4,
+            "city": 3,
+            "weight": 6
+        },
+        {
+            "id": 5,
+            "city": 8,
+            "weight": 14
+        }
+	]
+}
