@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# Author: Mardcore
 
 import Utils
 import numpy as np
