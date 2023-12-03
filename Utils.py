@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# Author: Mardcore
 
 from queue import PriorityQueue
 import math
